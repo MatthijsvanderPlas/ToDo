@@ -32,10 +32,10 @@ function handleClickDeleteOrCheck(e) {
 
 function checkTodo(e) {
     let item = e.target.parentNode;
-    if (item.style.textDecoraction == 'line-through')
-        item.style.textDecoraction = 'none';
+    if (item.style.textDecoration == 'line-through')
+        item.style.textDecoration = 'none';
     else
-        item.style.textDecoraction = 'line-through';
+        item.style.textDecoration = 'line-through';
 }
 
 function deleteTodo(e) {
