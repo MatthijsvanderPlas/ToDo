@@ -1,4 +1,4 @@
-document.getElementById('addProject').addEventListener('click', addProject);
+document.getElementById('addProject-el').addEventListener('click', addProject);
 
 function addProject(e) {
     e.preventDefault();
@@ -33,7 +33,8 @@ for (let i of close){
     }
 }
 
-function newElement() {
+function newElement(e) {
+    e.preventDefault();
     var li = document.createElement("li");
     var inputValue = document.getElementById("myInput").value;
     var t = document.createTextNode(inputValue);
