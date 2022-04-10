@@ -24,6 +24,7 @@
   }
 
 .container {
+    background: linear-gradient(135deg, rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5));
     display: grid;
     justify-content: center;
     min-height: 100vh;
