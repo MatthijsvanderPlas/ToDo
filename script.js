@@ -4,10 +4,10 @@ function addTask(e) {
   e.preventDefault();
   const input = document.getElementById("input-el").value;
   const taskList = document.getElementById("tasks");
-  const newTask = document.createElement("input");
+  const newTask = document.createElement("textarea");
   const container = document.createElement("div");
   newTask.setAttribute("readonly", true);
-  newTask.setAttribute("id", "task-el")
+  newTask.setAttribute("id", "task-el");
   const check = document.createElement("i");
   const trash = document.createElement("i")
   check.classList.add("fa", "fa-check", "fa-2x", "check");

@@ -64,7 +64,9 @@ h3 {
 }
 
 input {
+    width: 20px;
     flex-grow: 1;
+    flex-shrink: 1;
     font-size: 1.5rem;
 }
 
@@ -87,21 +89,24 @@ hr {
     width: 95%;
 }
 
-ul {
+.taskList {
     padding-inline-start: 0;
     list-style: none;
-    font-size: 24px;
-    margin: 0;
     margin-top: 10px;
 }
 
 .itemBox {
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
 
 .taskItem {
+    width: 25px;
     flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 24px;
     padding: 10px;
     border: none;
     outline: 0;
