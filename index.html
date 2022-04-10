@@ -9,29 +9,18 @@
     <title>ToDo App</title>
 </head>
 <body class="container">
-    <nav class="navbar">
-        <span class="col-3"></span>
-        <header class="col-6">
-            <img src="./stardash.svg" width="30%">
-        </header>
-    <span class="col-3"></span>
+    <nav>
+        <div class="topBox">
+            <img src="./stardash.svg"><h3>Todo App</h3>
+        </div>
     </nav>
-    <div class="main col-12">
-        <form>
-            <input id="addProject-el" type="text" placeholder="New project ...">
-            <button onclick="newElement()" type="submit"><i class="fa fa-plus-circle"></i></button>
-        </form>
-    </div>
+    <form class="inputBox">
+        <input id="input-el" type="text" placeholder="New Task..."><i id="addTask-el" class="fa-plus-circle fa fa-2x button"></i>
+    </form>
+    <hr class="col-12">
+    <ul id="tasks" class="taskList">
 
-    <div class="todoList">
-        <ul id="myUl">
-            <li>Testing layout</li>
-        </ul>
-        <hr>
-        <a class="clearAll" id="clearAll">Clear All</a>
-    </div>
-    <span>
-    </span>
+    </ul>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
