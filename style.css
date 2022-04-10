@@ -85,3 +85,45 @@ i {
 hr {
     width: 95%;
 }
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.itemBox {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.taskItem {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.check {
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.trash {
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px
+}
+
+.line-through {
+    text-decoration: line-through;
+}
