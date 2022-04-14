@@ -16,8 +16,8 @@ function addTask(e) {
   trash.classList.add("fa", "fa-trash", "fa-2x", "trash");
   check.setAttribute("id", "check-el");
   check.setAttribute("id", "trash-el");
-  check.addEventListener("click", checkTask);
-  trash.addEventListener("click", deleteTask);
+  check.addEventListener("click touchstart", checkTask);
+  trash.addEventListener("click touchstart", deleteTask);
   container.classList.add("itemBox");
 
   newTask.value = input;
