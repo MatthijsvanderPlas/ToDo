@@ -10,8 +10,8 @@ function addTask(e) {
   newTask.setAttribute("readonly", true);
   newTask.setAttribute("id", "task-el");
   newTask.setAttribute("role", "textbox");
-  const check = document.createElement("i");
-  const trash = document.createElement("i")
+  const check = document.createElement("a");
+  const trash = document.createElement("a")
   check.classList.add("fa", "fa-check", "fa-2x", "check");
   trash.classList.add("fa", "fa-trash", "fa-2x", "trash");
   check.setAttribute("id", "check-el");
