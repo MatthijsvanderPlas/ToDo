@@ -121,6 +121,7 @@ hr {
     border-radius: 5px;
     margin-left: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .trash {
@@ -130,6 +131,7 @@ hr {
     border-radius: 5px;
     margin-left: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .line-through {
